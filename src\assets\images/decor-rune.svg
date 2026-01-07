@@ -1,0 +1,39 @@
+<svg width="60" height="120" viewBox="0 0 60 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- 定义渐变 -->
+  <defs>
+    <linearGradient id="scroll" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f6d07a;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#c2a65a;stop-opacity:0.9" />
+    </linearGradient>
+    <linearGradient id="tassel" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f6d07a;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#fb7185;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 挂饰顶部 -->
+  <circle cx="30" cy="10" r="5" fill="url(#scroll)" />
+  <line x1="30" y1="15" x2="30" y2="20" stroke="url(#scroll)" stroke-width="2" />
+  
+  <!-- 挂饰主体 -->
+  <rect x="15" y="20" width="30" height="70" rx="5" ry="5" fill="url(#scroll)" />
+  <rect x="17" y="22" width="26" height="66" rx="3" ry="3" fill="rgba(0,0,0,0.2)" />
+  
+  <!-- 挂饰文字 -->
+  <text x="30" y="50" font-family="Arial" font-size="14" font-weight="bold" fill="rgba(0,0,0,0.8)" text-anchor="middle">
+    道
+  </text>
+  <text x="30" y="65" font-family="Arial" font-size="14" font-weight="bold" fill="rgba(0,0,0,0.8)" text-anchor="middle">
+    法
+  </text>
+  <text x="30" y="80" font-family="Arial" font-size="14" font-weight="bold" fill="rgba(0,0,0,0.8)" text-anchor="middle">
+    自然
+  </text>
+  
+  <!-- 挂饰底部装饰 -->
+  <path d="M15 90 Q30 100 45 90" fill="none" stroke="url(#scroll)" stroke-width="2" />
+  
+  <!-- 流苏 -->
+  <path d="M30 90 Q28 110 30 115 Q32 110 30 90" fill="url(#tassel)" />
+  <circle cx="30" cy="115" r="3" fill="url(#tassel)" />
+</svg>
