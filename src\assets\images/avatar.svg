@@ -1,0 +1,33 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景光环 -->
+  <defs>
+    <radialGradient id="avatarBg" cx="50" cy="50" r="50" fx="30" fy="30">
+      <stop offset="0%" style="stop-color:#7dd3fc;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#111a33;stop-opacity:0.9" />
+    </radialGradient>
+    <linearGradient id="robe" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f6d07a;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#c2a65a;stop-opacity:0.8" />
+    </linearGradient>
+    <linearGradient id="face" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f4e0c5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d4b790;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="hair" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3a2c1e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2a1d10;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景圆形 -->
+  <circle cx="50" cy="50" r="50" fill="url(#avatarBg)" />
+  
+  <!-- 头发 -->
+  <path d="M35 35 Q40 25 50 25 Q60 25 65 35 L65 45 L60 50 L40 50 L35 45 Z" fill="url(#hair)" />
+  
+  <!-- 头部 -->
+  <circle cx="50" cy="45" r="15" fill="url(#face)" />
+  
+  <!-- 眼睛 -->
+  <ellipse cx="45" cy="43" rx="2" ry="3" fill="#3a2c1e" />
+  <ellipse cx="55" cy="43" rx="2" ry="3" fill="#3a
